@@ -4,9 +4,9 @@ html {
 }
 
 p, ul, ol, dl {
-  font-size: 1.6rem;
-  line-height: 1.8rem;
-  margin-bottom: 12px;
+  font-size: 2.0rem;
+  line-height: 2.4rem;
+  margin-bottom: 20px;
 }
 
 article {
@@ -21,20 +21,80 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 4.2rem;
-  line-height: 2.0rem;
-  margin: 20px 0;
+  font-size: 4.4rem;
+  margin: 15px 0;
 }
 
 h2 {
-  font-size: 3.0rem;
-  line-height: 2.7rem;
-  margin: 16px 0;
+  font-size: 3.2rem;
+  line-height: 3.0rem;
+  margin: 25px 0 20px;
 }
 
 h3 {
-  font-size: 1.75rem;
-  margin: 25px 0 8px 0;
+  font-size: 2.5rem;
+  margin: 20px 0;
 }
 
-.byline {font-family: Arial, Helvetica, sans-serif;}
+h4 {
+  font-size: 1.6rem;
+  margin: 15px 0 10px;
+}
+
+#open-threads {
+  /* below settings are to make the open threads heading in line with article */
+  max-width: 620px;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 15px;
+  margin-left: auto;
+}
+
+.byline, figcaption {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+.byline {
+  margin-bottom: 15px;
+}
+
+span {
+  font-style: italic 
+}
+
+figcaption {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+blockquote {
+  border-left: 4px solid grey;
+  padding-left: 20px;
+  margin-left: 30px;
+}
+
+ol {
+  list-style-position: inside;
+}
+
+#comment-section { 
+  /* these settings keep the comment section centered with the article */
+  max-width: 620px;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-left: auto;
+  /* these settings create the grey block and pad it */
+  background-color: #ccc;
+  padding: 12px;
+}
+
+
+
+
+
+
+
+
+
