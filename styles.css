@@ -22,13 +22,13 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 4.4rem;
-  margin: 15px 0;
+  margin: 20px 0;
 }
 
 h2 {
   font-size: 3.2rem;
   line-height: 3.0rem;
-  margin: 25px 0 20px;
+  margin: 20px 0;
 }
 
 h3 {
@@ -38,7 +38,7 @@ h3 {
 
 h4 {
   font-size: 1.6rem;
-  margin: 15px 0 10px;
+  margin: 15px 0;
 }
 
 #open-threads {
